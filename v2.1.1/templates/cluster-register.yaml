@@ -2381,7 +2381,6 @@ items:
       served: true
       storage: true
 {{- end }}
-{{- end }}
 {{- if not (lookup "v1" "Namespace" "cloudcasa-io" "cloudcasa-io") }}
 - apiVersion: v1
   kind: Namespace
